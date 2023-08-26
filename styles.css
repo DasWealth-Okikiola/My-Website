@@ -1,0 +1,138 @@
+body{
+ margin: 0;
+ text-align: center;
+ font-family: 'DM Serif Display', serif;
+ background-color: ivory;
+}
+
+.my-title{
+ color: #040;
+ font-weight: bold;
+ font-size: 20px;
+}
+
+h1{
+ margin: 50px auto 0 auto;
+ font-size: 5.625rem;
+ color: #040;
+ font-family: 'Merienda', cursive;
+ line-height: 2;
+}
+
+h2{
+ font-family: 'Oswald', sans-serif;
+ color: #040D12;
+ font-size: 2.5rem;
+}
+
+h3{
+ font-family: 'Yanone Kaffeesatz', sans-serif;
+ color: #765827;
+}
+
+.top-container{
+  padding-top: 100px;
+  position: relative;
+  padding-bottom: 100px;
+ }
+
+.bottom-container{
+  background-color: #040;
+  padding: 50px 0 20px;
+}
+
+.top-cloud{
+ position: absolute;
+ right: 300px;
+ top: 40px;
+}
+
+.bottom-cloud{
+ position: absolute;
+ bottom: 250px
+ left: 150px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+p{
+ line-height: 2;
+}
+
+.skill-image{
+ width: 30%;
+ float: left;
+ margin-right: 30px;
+}
+
+.pc-image{
+ float: right;
+ margin-left: 30px;
+ width: 30%;
+}
+
+intro{
+ width: 30%;
+ margin: auto;
+}
+
+.robo-image{
+ width: 30%;
+ margin-left: 220px;
+}
+
+
+.dp{
+ width: 25%;
+}
+
+.btn {
+    appearance: none;
+	border: .2em solid #765827;
+	background: hsl(0,0%,100%);
+	padding: .40em 1em;
+	color: #040;
+	border-radius: 2em;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: 1s;
+	&:hover, &:focus, &:active {
+		background: aliceblue;
+		color: tan;
+	}
+}
+
+hr {
+    border: dotted tan 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px, auto;
+}
+
+.touch{
+ width: 40%;
+ margin: 40px auto 60px;
+}
+
+.footer-link{
+ text-decoration: none;
+ color: ivory;
+ margin: 10px 10px;
+}
+
+.footer-link:hover{;
+ color: tan;
+}
+
+.copyright{
+ font-size: 0.75rem
+ padding: 20px 0px;
+}
+
+.contact-me{
+ padding-bottom: 10px;
+}
